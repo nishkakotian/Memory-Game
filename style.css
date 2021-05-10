@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    line-height: 60px;
+    height: 60px;;
+    margin-bottom: 20px;
+}
+ul{
+    display: inline;
+}
+li{
+    list-style-type: none;
+    float: right;
+    font-size: 1.35em;
+    padding-left: 5%;
+    font-family: 'Raleway', sans-serif;
+    color: #002261;
+    font-weight:550;
+}
+li:first-child{
+    margin-right: 20%;
+}
+h1{
+    font-family: 'Lobster Two', cursive;
+    /* color: #002261; */
+    display: inline;
+    color: #58b498;
+    margin-left: 15%;
+}
+#cardholder{
+    width: 60%;
+    margin: auto;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px;
+    column-gap: 1.25em;
+}
+.card{
+    height: 200px;
+    width: 200px;
+    margin-bottom: 20px;
+    border: 3.5px solid #7e1348;
+
+}

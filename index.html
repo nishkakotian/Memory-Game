@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.js"></script> -->
+    <title>Memory game</title>
+</head>
+
+<body>
+    <header>
+        <h1>Memory game</h1>
+        <ul>
+            <li>Time used <span id="mins">00</span>:<span id="seconds">00</span></li>
+            <li>Number of card turns : <span id="numturns">0</span></li>
+        </ul>
+    </header>
+    <section>
+        <div id="cardholder">
+            <div class="grid-container">
+                <img id="i1" src="Images/image.jpg" class="card" onclick="turn(this);">
+                <img id="i2" src="Images/image.jpg" class="card" onclick="turn(this);">
+                <img id="i3" src="Images/image.jpg" class="card" onclick="turn(this);">
+                <img id="i4" src="Images/image.jpg" class="card" onclick="turn(this);">
+                <img id="i5" src="Images/image.jpg" class="card" onclick="turn(this);">
+            </div>
+            <div class="grid-container">
+                <img id="i6" src="Images/image.jpg" class="card" onclick="turn(this);">
+                <img id="i7" src="Images/image.jpg" class="card" onclick="turn(this);">
+                <img id="i8" src="Images/image.jpg" class="card" onclick="turn(this);">
+                <img id="i9" src="Images/image.jpg" class="card" onclick="turn(this);">
+                <img id="i10" src="Images/image.jpg" class="card" onclick="turn(this);">
+            </div>
+            <div class="grid-container">
+                <img id="i11" src="Images/image.jpg" class="card" onclick="turn(this);">
+                <img id="i12" src="Images/image.jpg" class="card" onclick="turn(this);">
+                <img id="i13" src="Images/image.jpg" class="card" onclick="turn(this);">
+                <img id="i14" src="Images/image.jpg" class="card" onclick="turn(this);">
+                <img id="i15" src="Images/image.jpg" class="card" onclick="turn(this);">
+            </div>
+            <div class="grid-container">
+                <img id="i16" src="Images/image.jpg" class="card" onclick="turn(this);">
+                <img id="i17" src="Images/image.jpg" class="card" onclick="turn(this);">
+                <img id="i18" src="Images/image.jpg" class="card" onclick="turn(this);">
+                <img id="i19" src="Images/image.jpg" class="card" onclick="turn(this);">
+                <img id="i20" src="Images/image.jpg" class="card" onclick="turn(this);">
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
